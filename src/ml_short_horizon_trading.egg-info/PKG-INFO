@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: ml-short-horizon-trading
+Version: 0.1.0
+Summary: Production-oriented ML system for short-horizon market prediction
+Requires-Python: >=3.11
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: polars
+Requires-Dist: pyarrow
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
