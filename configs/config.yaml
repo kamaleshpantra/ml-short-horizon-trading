@@ -1,0 +1,19 @@
+project:
+  name: "ml-short-horizon-trading"
+
+data:
+  symbol: "BTCUSDT"
+  market: "spot"
+
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+
+  orderbook_levels: 5
+
+  start_date: "2026-01-01"
+  end_date: "2026-01-02"
+
+validation:
+  max_spread_bps: 100
+  allow_missing: false
