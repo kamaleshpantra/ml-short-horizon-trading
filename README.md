@@ -100,7 +100,7 @@ pip install -e .[dev] uvicorn httpx
 
 ### 2. Run Complete Unit & Integration Test Suite
 ```bash
-pytest -v
+python -m pytest -v
 ```
 
 ### 3. Build Processed Dataset Pipeline
@@ -120,7 +120,7 @@ python scripts/run_backtest.py --fee 5.0 --slippage 1.0
 
 ### 6. Run Production FastAPI Microservice
 ```bash
-uvicorn api.main:app --host 0.0.0.0 --port 8000
+python -m uvicorn api.main:app --host 0.0.0.0 --port 8000
 ```
 Test prediction endpoint:
 ```bash
